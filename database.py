@@ -131,6 +131,8 @@ def remove_trading_condition(condition_id):
     conn.commit()
     conn.close()
 
+    #test comment
+
 def remove_stock_from_trading_conditions(stock_symbol):
     conn = get_db_connection()
     cursor = conn.cursor()
